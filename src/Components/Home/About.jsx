@@ -1,5 +1,5 @@
 import {  GrDocumentDownload} from "react-icons/gr";
-import resume from "../../../src/assets/SaifMahinresume.pdf"
+import resume from "../../../src/assets/Saif_Resume.pdf"
 const About = () => {
     return (
         <div id="about" className="lg:px-36 lg:pb-6 bg-stone-900">
