@@ -1,5 +1,5 @@
 import {  GrDocumentDownload} from "react-icons/gr";
-
+import resume from "../../../src/assets/SaifMahinresume.pdf"
 const About = () => {
     return (
         <div id="about" className="lg:px-36 lg:pb-6 bg-stone-900">
@@ -14,7 +14,7 @@ const About = () => {
                     I am dedicated to learning and mastering new technologies, and coding has become my true passion.
                     I invest a significant amount of time in staying up-to-date with the latest trends and honing my skills. If you have an exciting project in mind, I'm all ears! Feel free to explore my resume below to gain a better understanding of my skills and experience. Let's connect and bring your project to life together!</p>
                     {/* {resume} */}
-                <a href="" download='resume'>
+                <a href={resume} download='resume'>
                     <button className='border-2 font-semibold text-black flex gap-4 items-center border-[#eac882] p-3 rounded-lg bg-[#eac882] transition ease-in-out delay-150'>
                         MY RESUME <GrDocumentDownload Download size={23} className='font-bold' />
                     </button>
